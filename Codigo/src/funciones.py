@@ -12,6 +12,7 @@ Y_LEDS_2 = 350
 arduino = serial.Serial('com3', 9600, timeout = 1)
 
 class ADC(Frame):
+    "añadiendo cositas para checar que la computadora funcione"
     def __init__(self, master=None):
         super().__init__(master, width=620, height=270)
         self.master = master                    
